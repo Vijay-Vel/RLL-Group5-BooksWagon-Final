@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-15T15:11:26 IST" name="test1" finished-at="2023-12-15T15:11:45 IST" duration-ms="19037">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BooksWagon.Runner.TestRunner3@302c971f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-15T15:11:26 IST" name="BooksWagon Application Test" finished-at="2023-12-15T15:11:45 IST" duration-ms="19037">
+      <class name="com.BooksWagon.Runner.TestRunner3">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.BooksWagon.Runner.TestRunner3@302c971f]" started-at="2023-12-15T15:11:27 IST" name="setUpClass" finished-at="2023-12-15T15:11:27 IST" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d202dc4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BooksWagon.Runner.TestRunner3@302c971f]" started-at="2023-12-15T15:11:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T15:11:38 IST" duration-ms="11067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search item in the search box  scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodaysDeal and Search box testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.BooksWagon.Runner.TestRunner3@302c971f]" started-at="2023-12-15T15:11:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-15T15:11:43 IST" duration-ms="4899" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search item in the search box  scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodaysDeal and Search box testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert not same search item expected [Beyond The Story: 10-Year Record of BTS] but found [BTS BOOK]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert not same search item expected [Beyond The Story: 10-Year Record of BTS] but found [BTS BOOK]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.BooksWagon.StepDefinition.SearchBoxStepDefinition.user_click_on_search_button(SearchBoxStepDefinition.java:53)
+at ✽.User click on search button(file:///C:/Users/USER/eclipse-workspace/BooksWagon-Project/src/test/resources/SearchAndTodaysDealFeature.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.BooksWagon.Runner.TestRunner3@302c971f]" started-at="2023-12-15T15:11:43 IST" name="tearDownClass" finished-at="2023-12-15T15:11:45 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.BooksWagon.Runner.TestRunner3 -->
+    </test> <!-- BooksWagon Application Test -->
+  </suite> <!-- test1 -->
+</testng-results>

@@ -1,0 +1,13 @@
+{
+    "theme": "DARK",
+    "encoding": "utf-8",
+    "protocol": "HTTPS",
+    "timelineEnabled": true,
+    "offlineMode": true,
+    "thumbnailForBase64": false,
+    "documentTitle": "ExtentReports",
+    "reportName": "BOOKSWAGON APPLICATION TEST RESULTS",
+    "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+    "js": "",
+    "css": ".detail-body img+.title{background:#cf0000} .badge-primary{background-color:#33aa0e}"
+  }
